@@ -26,10 +26,8 @@ flowchart LR
 | [**dwm1001-uwb-dstwr-firmware**](https://github.com/zainnmiann/dwm1001-uwb-dstwr-firmware) | RTLS firmware for DWM1001-DEV: initiator-driven fixed-slot DS-TWR, up to 12 anchors and 32 tags, ~7.2 Hz per tag measured on a 10 × 9 schedule, plus host simulator and Pi bridge | C · nRF5 SDK · Python |
 | [**weather_lora_link**](https://github.com/zainnmiann/weather_lora_link) | Solar weather station to gateway over LoRa P2P, with HMAC-signed frames, a relay hop and a cellular uplink. Range-tested in the field | C++ · ESP32 · Wio-E5 · MQTT |
 | [**jetson-human-detection**](https://github.com/zainnmiann/jetson-human-detection) | Real-time YOLO11 person detection on a Jetson AGX Orin running Yocto, with MP4 recording and a live web view | Python · PyTorch · OpenCV · systemd |
-| [**uwb_bridge**](https://github.com/zainnmiann/uwb_bridge) | Raspberry Pi service that streams UWB ranges from UART to MQTT, with framing, checksums and auto-recovery | Python · MQTT · systemd |
 | [**esp32_uwb_tdma_twr**](https://github.com/zainnmiann/esp32_uwb_tdma_twr) | ESP32 UWB Pro port of the multi-tag, multi-anchor ranging protocol | C/C++ · PlatformIO |
 | [**WeatherStation**](https://github.com/zainnmiann/WeatherStation) | ESP32 station: BME280, AS3935 lightning detector, wind/rain kit, soil moisture | Arduino · ESP32 |
-| [**gta4-macos**](https://github.com/zainnmiann/gta4-macos) | How I got GTA IV running on an Apple Silicon Mac | Wine · macOS |
 
 ### Toolbox
 
