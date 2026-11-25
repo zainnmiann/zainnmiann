@@ -4,14 +4,10 @@
 indoor positioning with ultra-wideband radios, weather stations that report over LoRa,
 and computer vision on edge GPUs. I like work I can test on a bench and then deploy in the field.
 
-```mermaid
-flowchart LR
-    S["Sensors & UWB radios"] --> F["Firmware<br/>C · nRF52 · ESP32"]
-    F --> R["Radio link<br/>UWB · LoRa · cellular"]
-    R --> E["Edge<br/>Raspberry Pi · Jetson"]
-    E --> M(("MQTT"))
-    M --> B["Backend & models<br/>Python · Postgres · Docker"]
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="pipeline-dark.svg">
+  <img alt="Sensors → Firmware → Radio link → Edge → MQTT → Backend" src="pipeline-light.svg" width="100%">
+</picture>
 
 ### Currently
 
